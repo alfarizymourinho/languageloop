@@ -44,7 +44,7 @@ exports.update = (req, res) => {
 
     const pasienData = {
         name: req.body.name,
-        jeniskelamin: req.body.email,
+        jeniskelamin: req.body.jeniskelamin,
         alamat: req.body.alamat,
         tglLahir: req.body.tglLahir,
         noTelp: req.body.noTelp,
